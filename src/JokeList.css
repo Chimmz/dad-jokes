@@ -1,0 +1,61 @@
+.JokesList{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80%;
+}
+.JokesList-spinner{
+    color: white
+}
+.JokesList-sidebar{
+    background: #9575cd;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    box-shadow: 0 7px 10px rgba(0,0,0, 0.3);
+    z-index: 2;
+}
+.JokesList-getmore{
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    align-self: center;
+    width: max-content;
+    margin: 2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    word-spacing: 0.3rem;
+    box-shadow: 0 7px 10px rgba(0,0,0, 0.3);
+    background: linear-gradient(135deg, rgba(179, 229, 252, 1) 0%, rgba(179, 229, 252, 1) 50%, 
+                rgba(240, 98, 146, 1) 50%, rgba(240, 98, 146, 1) 100%);
+    transition: all 0.7s;
+}
+.JokesList-getmore:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 7px 10px rgba(0,0,0, 0.15);
+    background: linear-gradient(135deg,rgba(240, 98, 146, 1) 0%, rgba(240, 98, 146, 1) 50%, 
+				 rgba(179, 229, 252, 1) 50%, rgba(179, 229, 252, 1) 100%);
+}
+.JokesList-title{
+    font-size: 1.9rem;
+    color: #fff;
+    margin: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+.JokesList-title span{
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.JokesList-sidebar button{
+    outline: none;
+    border: 
+}
+.JokesList-jokes{
+    height: 90%;
+    background: #fff;
+    align-self: center;
+    overflow: scroll;
+}
